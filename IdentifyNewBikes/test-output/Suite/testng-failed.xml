@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestCase(failed)">
+    <groups>
+      <run>
+        <include name="BaseMethods"/>
+        <include name="Smoke"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testsuite.TestCase">
+        <methods>
+          <include name="displayPopularUsedCarsModelsTest"/>
+          <include name="verifyLoginFunctionalTest"/>
+          <include name="callingBrowser"/>
+          <include name="displayUpcomingHondaBikesTest"/>
+          <include name="closingBrowser"/>
+          <include name="verifyLoginTest"/>
+        </methods>
+      </class> <!-- testsuite.TestCase -->
+    </classes>
+  </test> <!-- TestCase(failed) -->
+</suite> <!-- Failed suite [Suite] -->
